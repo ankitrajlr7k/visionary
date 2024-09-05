@@ -1,0 +1,41 @@
+{
+  "name": "image-gen-summarize",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "prisma generate && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@google/generative-ai": "^0.16.0",
+    "@huggingface/inference": "^2.8.0",
+    "@mui/icons-material": "^5.16.6",
+    "@mui/material": "^5.16.6",
+    "@next-auth/prisma-adapter": "^1.0.7",
+    "@prisma/client": "^5.18.0",
+    "axios": "^1.7.3",
+    "bcryptjs": "^2.4.3",
+    "crypto": "^1.0.1",
+    "firebase": "^10.12.5",
+    "firebase-admin": "^12.3.1",
+    "lodash": "^4.17.21",
+    "marked": "^14.0.0",
+    "next": "14.2.5",
+    "next-auth": "^4.24.7",
+    "nodemailer": "^6.9.14",
+    "prisma": "^5.18.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
